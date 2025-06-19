@@ -1,0 +1,14 @@
+java is an interesting language
+java is an object oriented programming language
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class LearnFileIO {
+    
+    public static void main(String[] args) {
+        String word = "serah";
+        String reversed = new StringBuilder(word).reverse().toString();
+        System.out.println("Backward: " + reversed);
+    }
+}
